@@ -16,6 +16,8 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import angular from "./tech/angular.png";
+import mysql from "./tech/mysql.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -30,7 +32,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import grapes from "./grapes.png";
-
+import ismart from "./ismart.jpg"
+import irmc from "./irmc.png";
+import packetalk from "./packetalk.jpg"
 export {
   grapes,
   logo,
@@ -50,6 +54,8 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  angular,
+  mysql,
   redux,
   tailwind,
   typescript,
@@ -61,4 +67,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  ismart,
+  irmc,
+  packetalk
 };

@@ -8,6 +8,8 @@ import {
   html,
   css,
   reactjs,
+  angular,
+  mysql,
   redux,
   tailwind,
   nodejs,
@@ -24,6 +26,9 @@ import {
   tripguide,
   threejs,
   grapes,
+  ismart,
+  irmc,
+  packetalk
 } from "../assets";
 // import { grapes } from "../assets/company";
 export const navLinks = [
@@ -55,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "MERN Stack Creator",
+    title: "MERN Stack Developer",
     icon: creator,
   },
 ];
@@ -78,11 +83,15 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
@@ -98,20 +107,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -199,37 +200,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "iSMART",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "iSMART continuously streams vital strategic and actionable tactical information regarding criminal activity and key performance indicators, utilizing multidimensional gauges, charts, maps, visual cues and alerts. iSMART features visually interactive displays that provide meaningful context and enable comparative analysis in a user-friendly format, allowing users to interpret data effortlessly and develop targeted response strategies for emerging and ongoing issues",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: ".net",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: ismart,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "iRMC",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Interactive Resource Management Center (iRMC) is a powerful workload, resource, and performance management tool that combines real-time resource tracking and performance monitoring to identify ongoing opportunities for executing agency strategy, optimizing the use of available resources, and extending the reach of agency resources",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: ".net",
         color: "green-text-gradient",
       },
       {
@@ -237,20 +238,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: irmc,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Vital Trailer Monitoring System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built-in monitoring system collects data and information for display in our autonomous operational continuity vitals application. Hands Free Analytics. Real Time Fixes Without Delay. Web Based Access. Autonomous Operational Continuity.",
     tags: [
       {
-        name: "nextjs",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +259,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: packetalk,
     source_code_link: "https://github.com/",
   },
 ];
