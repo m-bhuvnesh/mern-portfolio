@@ -33,6 +33,12 @@ const Contact = () => {
     setLoading(true);
     try {
       const data = await sendContactMessage(form);
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
+      
       toast.success("Thank you! I'll get back to you soon.");
     } catch (error) {
       console.log(error);
