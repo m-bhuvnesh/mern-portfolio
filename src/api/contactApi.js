@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const Api_Url = "mern-portfolio-backend-production-73bf.up.railway.app";
+const Api_Url = "https://mern-portfolio-backend-production-73bf.up.railway.app";
 
 export const sendContactMessage = async (formData) => {
   try {
